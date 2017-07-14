@@ -10,10 +10,12 @@ module.exports = {
   rules: {
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
     'react/prop-types': 0,
+    'global-require': 0,
     'no-console': 1,
     "no-param-reassign": 0,
+    'import/no-dynamic-require': 0,
     'func-names': 0,
-    'consistent-return': 0,
+    'class-methods-use-this': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
     'import/no-named-as-default': 0,
@@ -21,5 +23,6 @@ module.exports = {
     'import/no-unresolved': 0,
     'no-underscore-dangle': 0,
     'prefer-arrow-callback': 0,
+    'consistent-return': 0,
   },
 };
